@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bco.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(240, 240, 199);
+            margin: 0px;
+
+        }
+        header {
+            background-color: rgb(162, 223, 223);
+            padding: 5px;
+            margin: 8px;
+        }
+
+        main {
+            background-color: rgb(205, 228, 205);
+            padding: 5px;
+            margin: 8px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 3px 1px rgba(24, 23, 23, 0.596);
+        }
+        article {
+            background-color: azure;
+            padding: 5px;
+        }
+
+        article> aside {
+            background-color: rgb(209, 245, 245);
+            
+        }
+        footer {
+            background-color: rgb(170, 168, 168);
+            color: white;
+            text-align: center;
+            padding: 4px;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav {
+            background-color: rgb(100, 99, 99);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.63);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+     
+
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Principal</a>
+        <a href="#">Artigos</a>
+        <a href="#">Tutoriais</a>
+        <a href="#">Sobre</a>
+    </nav>
+
+   </header>
+   <main>
+    <section id="assuntos">
+        <p>Vida de CPD seus Perrengues e seu Futuro</p>
+    </section>
+    <section id="news">
+        <article>
+
+        </article>
+        <article>
+            <h2>O assunto do momento</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nemo consequuntur cumque et dicta, fugiat corrupti cupiditate adipisci molestiae? Quis impedit laborum aliquid doloribus expedita reprehenderit quas sunt corrupti nobis?</p>
+            <aside>
+                <p>Escrito por Zenio</p>
+            </aside>
+        </article>
+    </section>
+   </main>
+
+</body>
+
+<footer>
+<p>Desenvolvido por Zenio Almeida &copy; &reg;</p>
+</footer>
+
+</html>

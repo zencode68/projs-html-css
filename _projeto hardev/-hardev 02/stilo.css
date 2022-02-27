@@ -1,0 +1,49 @@
+* {
+       font-family: Verdana, Geneva, sans-serif;
+       font-size: 12px;
+}
+p{
+       text-align: justify;
+       text-indent:  50px;
+}
+h1 {
+      color: white;
+      font-size:14px
+}
+h2{
+     color: #A9A9A9;
+}
+#retail automation {
+       height: auto;
+       width: auto;
+       max-width: 300px;
+       max-height: 300px;
+}
+     /* este é o menu*/
+ul {
+      margin: 10;
+      padding: 0;
+}
+
+li {
+     list-style: none;
+     magin: 10px;
+     display: inline;
+}
+li a {
+      padding: 5px 10px;
+      margin: 0;
+      border: 0px solid #f00;
+      background: #903;
+      text-decoration: none;
+      color: #FFF;
+      /* cantos arredondados */
+      -webkt-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+}
+li a:hover {
+        background: #CCC;
+        color:#000;
+        border-color: #000;
+}

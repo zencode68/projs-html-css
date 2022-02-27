@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    color; rgba(0,0,0,1);
+}
+div#interface {
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px grey;
+    padding: 10px
+}
+
+p{
+  text-align: justify;
+  text-indent:  50px;
+}
+<!--Formatação do Menu-->
+nav#menu {
+    display: block ;
+}
+nav#menu ol {
+    list-style: none;
+    text-transform:  uppercase;
+    position:  absolute;
+    top: -20px;
+    left: 480px;
+}
+nav#menu li {
+    display:  inline-block;
+    background-color: #C0C0C0;
+    padding:  10px;
+    margin:  5px;
+    transition: backround-color 1s;
+}
+nav#menu li:hover {
+    background-color: #4169E1;
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: #ffffff;
+}
+<!-- este é o corpo-->
+section#corpo {
+    display: block;
+    width: 250x;
+    float: left;
+    border-right: 1px solid #000000;
+    padding-right: 15px;
+}
+aside#lateral {
+    display: block;
+    width: 180px;
+    float: right;
+    float: top;
+}
+footer#rodape {
+    clear: both;
+    border-top: #000000 solid 1px;
+}
+<!-- configuração do cabeçalho>
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background-color: #7FFFD4;
+}
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #0c0b0b;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}  
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+h2 {
+    color:  #333232;
+}
