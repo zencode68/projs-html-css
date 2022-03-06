@@ -179,7 +179,7 @@ aside > ul {
     list-style: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
-}
+}<article>
 footer {
     background-color: var(--cor5);
     color: white;
