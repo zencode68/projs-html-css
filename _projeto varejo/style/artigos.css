@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: opx;
+    padding: 0px;
+}
+
+header {
+    background-color: aliceblue;
+    
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body {
+    background-color: rgb(40, 125,145;
+    padding: 300px;
+}
+
+
+
+p {
+    text-align: justify;
+    text-indent:  50px;
+  }
